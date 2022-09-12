@@ -13,24 +13,106 @@ MonoBehaviour:
   m_Name: SceneReferenceManager
   m_EditorClassIdentifier: 
   gameObjectReferences_keys:
-  - CityScene/Chest/chest_bottom
-  - CityScene/Chest/chest_top
-  - CityScene/Basic Motions Dummy - Run (1)/Dummy
-  - CityScene/Cube (2)
-  - CityScene/Capsule
-  - CityScene/Cube (1)
-  - CityScene/Plane
-  - CityScene/Cylinder/Sphere
-  - CityScene/Cylinder
-  - CityScene/Cube
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Trigger
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Stick
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Main
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Grip
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Button_B
+  - TeleportVRAntechamber/TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Button_A
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Trigger
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Stick
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Loop
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Grip
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Button_Y
+  - TeleportVRAntechamber/TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Button_X
+  - TeleportVRAntechamber/Sphere (1)
+  - TeleportVRAntechamber/Sphere (2)
+  - TeleportVRAntechamber/Strip Light Surround 2/Strip Light 1
+  - TeleportVRAntechamber/Sphere (3)
+  - TeleportVRAntechamber/Red Cube
+  - TeleportVRAntechamber/Sphere (4)
+  - TeleportVRAntechamber/Plinth (1)
+  - TeleportVRAntechamber/Plane
+  - TeleportVRAntechamber/Plinth 2
+  - TeleportVRAntechamber/Plane (3)
+  - TeleportVRAntechamber/Cylinder/Sphere
+  - TeleportVRAntechamber/Cylinder
+  - TeleportVRAntechamber/Cylinder (4)
+  - TeleportVRAntechamber/Cylinder (1)
+  - TeleportVRAntechamber/Strip Light Surround 1/Strip Light 1
+  - TeleportVRAntechamber/Strip Light Surround 1
+  - TeleportVRAntechamber/TeleportVRLogo
+  - TeleportVRAntechamber/Cylinder (5)
+  - TeleportVRAntechamber/Cube
+  - TeleportVRAntechamber/Cube (6)
+  - TeleportVRAntechamber/Plinth
+  - TeleportVRAntechamber/sword_low_new
+  - TeleportVRAntechamber/Strip Light Surround 2
+  - TeleportVRAntechamber/Plane (2)
+  - TeleportVRAntechamber/TeleportClientWand (1)
+  - TeleportVRAntechamber/Plane (1)
+  - TeleportVRAntechamber/Plinth 1
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Button_X
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Button_Y
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Grip
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Loop
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Stick
+  - /TeleportVR/Player/Left HandController/QuestLeftController/Oculus_L_Trigger
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Button_A
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Button_B
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Grip
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Main
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Stick
+  - /TeleportVR/Player/Right HandController/QuestRightController/Oculus_R_Trigger
   gameObjectReferences_values:
-  - mesh: {fileID: 4300000, guid: beada09c1c3c8ae40af8af0b8219911c, type: 3}
-  - mesh: {fileID: 4300002, guid: beada09c1c3c8ae40af8af0b8219911c, type: 3}
-  - mesh: {fileID: 4300000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
+  - mesh: {fileID: 2888647440349190436, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: -4231716108970672535, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 3341325685863068083, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: -8882322082198371496, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 7252456297032893678, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: -4121599681479280667, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 2592335857007103259, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 5969004303824751651, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 8717285299447145127, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -1015699770599192987, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -1258100815225046197, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -7892432015762708264, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  - mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 2210965410299338194, guid: 1483b735ce3212443884f65eb77566ec, type: 3}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: -405809574481076220, guid: bdfeb49fef516744c85a1335e52082c8, type: 3}
+  - mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: -8369894381874301590, guid: 63170029431b5514e939f59f37e0dbba, type: 3}
+  - mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  - mesh: {fileID: -7892432015762708264, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -1258100815225046197, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -1015699770599192987, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 8717285299447145127, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 5969004303824751651, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: 2592335857007103259, guid: 846cfee221095204ea421daaf47eca96, type: 3}
+  - mesh: {fileID: -4121599681479280667, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 7252456297032893678, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: -8882322082198371496, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 3341325685863068083, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: -4231716108970672535, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
+  - mesh: {fileID: 2888647440349190436, guid: d0c344579ae47a24594c33ae955cf7f4, type: 3}
