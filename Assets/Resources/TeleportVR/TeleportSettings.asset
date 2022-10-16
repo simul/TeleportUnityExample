@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TeleportSettings
   m_EditorClassIdentifier: 
   cachePath: E:/Code/TeleportUnity/teleport_cache
-  TagToStream: 
+  TagToStream: TeleportStreamable
   highlightStreamables: 0
   highlightStreamableColour: {r: 0.5, g: 0.2, b: 1, a: 0.1}
   highlightNonStreamables: 0
@@ -25,19 +25,19 @@ MonoBehaviour:
   certPath: 
   privateKeyPath: 
   moveUpdatesPerSecond: 20
-  casterSettings:
+  serverSettings:
     requiredLatencyMs: 30
-    detectionSphereRadius: 32
-    detectionSphereBufferDistance: 41
+    detectionSphereRadius: 15
+    detectionSphereBufferDistance: 5
     throttleKpS: 0
     backgroundMode: 1
-    BackgroundColour: {r: 0.14735948, g: 0.26415092, b: 0.14328942, a: 0}
+    BackgroundColour: {r: 0.5943396, g: 0.2999733, b: 0.2999733, a: 0}
     isStreamingGeometry: 1
     geometryTicksPerSecond: 2
     geometryBufferCutoffSize: 1048576
     confirmationWaitTime: 15
-    clientDrawDistanceOffset: 12
-    StreamVideo: 1
+    clientDrawDistanceOffset: 0
+    StreamVideo: 0
     StreamWebcam: 0
     defaultCaptureCubeTextureSize: 512
     webcamWidth: 128
@@ -75,7 +75,7 @@ MonoBehaviour:
     estimatedDecodingFrequency: 10
     maximumTextureSize: 1024
     useCompressedTextures: 1
-    qualityLevel: 1
+    qualityLevel: 255
     compressionLevel: 1
     willDisableMainCamera: 0
     defaultSpecularCubemapSize: 64
