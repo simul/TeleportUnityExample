@@ -90,13 +90,31 @@ MonoBehaviour:
   inputDefinitions:
   - name: Left Trigger Click
     inputType: 5
-    controlPath: left/trigger/value
+    controlPath: left/.*/trigger/value
   - name: Right Trigger Click
     inputType: 5
-    controlPath: right/trigger/value
+    controlPath: right/.*/trigger/value
   - name: Left Mouse Click
     inputType: 5
     controlPath: mouse.*/left/click
+  - name: Left Thumbstick X
+    inputType: 8
+    controlPath: left/.*/thumbstick/x
+  - name: Left Thumbstick Y
+    inputType: 8
+    controlPath: left/.*/thumbstick/y
+  - name: Left Grip Click
+    inputType: 4
+    controlPath: left/.*/squeeze/value
+  - name: Right Grip Click
+    inputType: 4
+    controlPath: right/.*/squeeze/value
+  - name: Right Thumbstick X
+    inputType: 8
+    controlPath: right/.*/thumbstick/x
+  - name: Right Thumbstick Y
+    inputType: 8
+    controlPath: right/.*/thumbstick/y
   defaultScene: 
   additiveScene: 
   webcam: HD Web Camera
