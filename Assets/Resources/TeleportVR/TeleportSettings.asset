@@ -104,10 +104,10 @@ MonoBehaviour:
     inputType: 8
     controlPath: left/.*/thumbstick/y
   - name: Left Grip Click
-    inputType: 4
+    inputType: 5
     controlPath: left/.*/squeeze/value
   - name: Right Grip Click
-    inputType: 4
+    inputType: 5
     controlPath: right/.*/squeeze/value
   - name: Right Thumbstick X
     inputType: 8
