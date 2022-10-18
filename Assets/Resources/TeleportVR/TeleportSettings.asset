@@ -31,7 +31,7 @@ MonoBehaviour:
     detectionSphereBufferDistance: 5
     throttleKpS: 0
     backgroundMode: 1
-    BackgroundColour: {r: 0.5943396, g: 0.2999733, b: 0.2999733, a: 0}
+    BackgroundColour: {r: 0.10702208, g: 0.4132421, b: 0.6132076, a: 0}
     isStreamingGeometry: 1
     geometryTicksPerSecond: 2
     geometryBufferCutoffSize: 1048576
