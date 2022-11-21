@@ -70,6 +70,7 @@
     <Compile Include="Assets\Teleport\Scripts\Editor\CasterMonitorEditor.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\Teleport_HeadGizmo.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\ResourceWindow.cs" />
+    <Compile Include="Assets\Teleport\Scripts\Editor\OutputWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

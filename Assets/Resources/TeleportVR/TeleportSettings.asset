@@ -31,13 +31,13 @@ MonoBehaviour:
     detectionSphereBufferDistance: 5
     throttleKpS: 0
     backgroundMode: 1
-    BackgroundColour: {r: 0.10702208, g: 0.4132421, b: 0.6132076, a: 0}
+    BackgroundColour: {r: 0.66816485, g: 0.78324556, b: 0.8584906, a: 0}
     isStreamingGeometry: 1
     geometryTicksPerSecond: 2
     geometryBufferCutoffSize: 1048576
     confirmationWaitTime: 15
     clientDrawDistanceOffset: 0
-    StreamVideo: 0
+    StreamVideo: 1
     StreamWebcam: 0
     defaultCaptureCubeTextureSize: 512
     webcamWidth: 128
@@ -71,7 +71,7 @@ MonoBehaviour:
     debugNetworkPackets: 0
     debugControlPackets: 0
     calculateChecksums: 0
-    pipeDllOutputToUnity: 0
+    pipeDllOutputToUnity: 1
     estimatedDecodingFrequency: 10
     maximumTextureSize: 1024
     useCompressedTextures: 1
@@ -115,6 +115,39 @@ MonoBehaviour:
   - name: Right Thumbstick Y
     inputType: 8
     controlPath: right/.*/thumbstick/y
+  - name: Left Button A
+    inputType: 5
+    controlPath: left/.*[a|x]/click
+  - name: Left Button B
+    inputType: 5
+    controlPath: left//*[b|y]/click
+  - name: Right Button X
+    inputType: 5
+    controlPath: right/.*[a|x]/click
+  - name: Right Button Y
+    inputType: 5
+    controlPath: right/.*[b|y]/click
+  - name: Right Mouse Click
+    inputType: 5
+    controlPath: mouse.*/right/click
+  - name: Rotate Left
+    inputType: 4
+    controlPath: keyboard.*/q
+  - name: Rotate Right
+    inputType: 4
+    controlPath: keyboard.*/e
+  - name: Forward
+    inputType: 4
+    controlPath: keyboard.*/w
+  - name: Backward
+    inputType: 4
+    controlPath: keyboard.*/s
+  - name: Left
+    inputType: 4
+    controlPath: keyboard.*/a
+  - name: Right
+    inputType: 4
+    controlPath: keyboard.*/d
   defaultScene: 
   additiveScene: 
   webcam: HD Web Camera
