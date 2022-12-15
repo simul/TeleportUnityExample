@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Teleport\Scripts\Editor\CommandLineReader.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\InputDefinitionsWindow.cs" />
+    <Compile Include="Assets\Teleport\Scripts\Editor\ModalWarningPopup.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\Package.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\Startup.cs" />
     <Compile Include="Assets\Teleport\Scripts\Editor\StatusWindow.cs" />
