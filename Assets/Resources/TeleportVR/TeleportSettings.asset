@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 355e47e37b2db9740b56efb4e09cecec, type: 3}
   m_Name: TeleportSettings
   m_EditorClassIdentifier: 
-  cachePath: E:/Code/TeleportUnity/teleport_cache
+  cachePath: E:/Code/Teleport/TeleportUnityExample/teleport_cache
   TagToStream: TeleportStreamable
   highlightStreamables: 0
   highlightStreamableColour: {r: 0.5, g: 0.2, b: 1, a: 0.1}
