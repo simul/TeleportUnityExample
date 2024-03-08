@@ -13,32 +13,30 @@ MonoBehaviour:
   m_Name: TeleportSettings
   m_EditorClassIdentifier: 
   cachePath: E:/Code/Teleport/TeleportUnityExample/teleport_cache
-  TagToStream: TeleportStreamable
-  highlightStreamables: 0
+  _TagToStream: 
+  highlightStreamables: 1
   highlightStreamableColour: {r: 0.5, g: 0.2, b: 1, a: 0.1}
   highlightNonStreamables: 0
   highlightNonStreamableColour: {r: 0.5, g: 1, b: 1, a: 0.1}
-  listenPort: 10500
-  discoveryPort: 10600
-  connectionTimeout: 25000
+  signalingPorts: 8080,80,443,10600,10800
+  connectionTimeout: 13000
   clientIP: 
   certPath: 
   privateKeyPath: 
   moveUpdatesPerSecond: 20
+  defaultMinimumNodePriority: 0
   serverSettings:
     requiredLatencyMs: 30
-    detectionSphereRadius: 15
+    detectionSphereRadius: 25
     detectionSphereBufferDistance: 5
     throttleKpS: 0
-    backgroundMode: 1
-    BackgroundColour: {r: 0.66816485, g: 0.78324556, b: 0.8584906, a: 0}
     isStreamingGeometry: 1
     geometryTicksPerSecond: 2
     geometryBufferCutoffSize: 1048576
     confirmationWaitTime: 15
     clientDrawDistanceOffset: 0
     StreamVideo: 1
-    StreamWebcam: 0
+    StreamWebcam: 1
     defaultCaptureCubeTextureSize: 512
     webcamWidth: 128
     webcamHeight: 96
@@ -70,12 +68,11 @@ MonoBehaviour:
     debugStream: 0
     debugNetworkPackets: 0
     debugControlPackets: 0
-    calculateChecksums: 0
-    pipeDllOutputToUnity: 1
+    pipeDllOutputToUnity: 0
     estimatedDecodingFrequency: 10
     maximumTextureSize: 1024
     useCompressedTextures: 1
-    qualityLevel: 255
+    qualityLevel: 1
     compressionLevel: 1
     willDisableMainCamera: 0
     defaultSpecularCubemapSize: 64
@@ -83,71 +80,10 @@ MonoBehaviour:
     defaultDiffuseCubemapSize: 64
     defaultLightCubemapSize: 64
     defaultShadowmapSize: 0
-    controlModel: 2
   LayersToStream:
     serializedVersion: 2
     m_Bits: 119
-  inputDefinitions:
-  - name: Left Trigger Click
-    inputType: 5
-    controlPath: left/.*/trigger/value
-  - name: Right Trigger Click
-    inputType: 5
-    controlPath: right/.*/trigger/value
-  - name: Left Mouse Click
-    inputType: 5
-    controlPath: mouse.*/left/click
-  - name: Left Thumbstick X
-    inputType: 8
-    controlPath: left/.*/thumbstick/x
-  - name: Left Thumbstick Y
-    inputType: 8
-    controlPath: left/.*/thumbstick/y
-  - name: Left Grip Click
-    inputType: 5
-    controlPath: left/.*/squeeze/value
-  - name: Right Grip Click
-    inputType: 5
-    controlPath: right/.*/squeeze/value
-  - name: Right Thumbstick X
-    inputType: 8
-    controlPath: right/.*/thumbstick/x
-  - name: Right Thumbstick Y
-    inputType: 8
-    controlPath: right/.*/thumbstick/y
-  - name: Left Button A
-    inputType: 5
-    controlPath: left/.*[a|x]/click
-  - name: Left Button B
-    inputType: 5
-    controlPath: left//*[b|y]/click
-  - name: Right Button X
-    inputType: 5
-    controlPath: right/.*[a|x]/click
-  - name: Right Button Y
-    inputType: 5
-    controlPath: right/.*[b|y]/click
-  - name: Right Mouse Click
-    inputType: 5
-    controlPath: mouse.*/right/click
-  - name: Rotate Left
-    inputType: 4
-    controlPath: keyboard.*/q
-  - name: Rotate Right
-    inputType: 4
-    controlPath: keyboard.*/e
-  - name: Forward
-    inputType: 4
-    controlPath: keyboard.*/w
-  - name: Backward
-    inputType: 4
-    controlPath: keyboard.*/s
-  - name: Left
-    inputType: 4
-    controlPath: keyboard.*/a
-  - name: Right
-    inputType: 4
-    controlPath: keyboard.*/d
+  inputDefinitions: []
   defaultScene: 
   additiveScene: 
   webcam: HD Web Camera
